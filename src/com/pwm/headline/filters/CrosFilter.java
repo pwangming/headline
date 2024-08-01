@@ -1,6 +1,7 @@
 package com.pwm.headline.filters;
 
 import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
@@ -16,6 +17,7 @@ import java.io.IOException;
  * @Create: 2024/7/31 - 0:08
  * @Version: v1.0
  */
+@WebFilter("/*")
 public class CrosFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
