@@ -20,7 +20,7 @@ import java.io.Serializable;
 @Data
 public class NewsUser implements Serializable {
     private Integer uid;
-    private String username;
+    private String userName;
     private String userPwd;
     private String nickName;
 }

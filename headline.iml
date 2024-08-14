@@ -23,7 +23,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Tomcat 10.1.25" level="application_server_libraries" />
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/web/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 10.1.28" level="application_server_libraries" />
   </component>
 </module>
